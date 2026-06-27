@@ -1,22 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #595a5c;
+}
+
 header{
-    background-color: #183c63;
+    background: linear-gradient(to right, #090a12, #001a4d);
     color: #ffffff;
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 16px;
-    border-radius: 2px;
-    border: 3px solid #000000;
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    border-radius: 0;
+    border: 2px solid #000000;
 }
 main{
-    background-color: #ffffff;
+
     color: #183c63;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 16px;
+    padding: 20px;
+    flex: 1;
+    margin-right: auto;
+
 }
-img{
-    border: 3px solid #000000;
-    width: 150px;
-    border-radius: 12px;
+
+.content-wrapper {
+    max-width: 100%;
+    margin: 0;
+    display: flex;
+    gap: 0;
+    padding: 0;
+    flex: 1;
+    width: 100%;
+}
+
+.sidebar {
+    background: linear-gradient(to bottom, #090a12, #001a4d);
+    color: #ffffff;
+    width: 180px;
+    padding: 12px;
+    min-height: 100vh;
+    margin-left: 0;
+    border-right: 2px solid #000000;
+}
+
+
+.logo{
+margin-left: 20px;
+font-style: italic;
+}
+.container{
+       display: flex;
+    align-items: center;
+    gap: 35%;
+   img {
+         
+        width: 20px;
+        height: 20px;
+    }
+ 
+}
+
+.category {
+    padding: 20px;
+    margin-top: -20px;
+    a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    color: #ffffff;
+    h3 {
+        margin: 0;
+        padding: 5px 0;
+    }
+}
+#barra-pesquisa {
+display: flex;
+align-items: center;
+border-radius: 5px;
+padding: 5px;
+width: 300px;
+}
+
+#campo-pesquisa {
+border-radius: 5px;
+flex: 1;
+border: none;
+padding: 5px;
+font-size: 16px;
+}
+
+#botao-pesquisa {
+margin-right: 7px;
+background-color: #070712;
+color: rgb(148, 147, 147);
+border: none;
+padding: 5px 10px;
+cursor: pointer;
+border-radius: 3px;
 }
