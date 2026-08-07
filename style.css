@@ -1,10 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: #96a0b2;
+   
+   
+    background-color: #292a2b;
 }
 
 header{
@@ -16,8 +15,12 @@ header{
 }
 .container-conteudo {
     max-width: 100%;
-    display: flex;
+ display: flex;
     flex: 1;
+}
+.conteudo{
+    flex:1;
+    padding:20px;
 }
 
 .barra-lateral {
