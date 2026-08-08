@@ -58,3 +58,12 @@ font-style: italic;
 .configuracao {
     color: #ffffff;
 }
+.container-jogos,.container-jogos2{
+    display:flex;
+    flex-wrap:wrap;
+    gap: 100px;
+    padding:20px;
+
+    min-height:600px;
+    margin-top:20px;
+}
