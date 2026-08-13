@@ -67,3 +67,8 @@ font-style: italic;
     min-height:600px;
     margin-top:20px;
 }
+button{
+    background-color: #161617;
+    color: #ffffff;
+    text-align: center;
+}
